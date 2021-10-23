@@ -30,36 +30,20 @@ That was solved by using a while loop.
 
 subTotal = subTotal + (quantity * cost);
 
+### Primer 3 - Password Complexity Checker
+This primer required me to create a program that shows the strength of a password.
+ 
+To help complete this challenge I needed to break the overall problem down into the following main task:
+ 
+1. Get data from the user.
+2. Verify the data is in a suitable format.
+3. I created a method to implement the digit, letter and special characters.
+4. I created a method to calculate the complexity of the password.
+5. Finally show the result.
 
+#### Reflection (as well as issues, challenges & resolutions)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Where this task proved challenging was meeting the criteria of stop asking for a password until it's complexity is 'weak'. To fix  this problem I decided to create a helper function to abstract the mechanism behind checking the complexity by using a switch statement rather than an if statement.
 
 ## Section 2 - Programming Paradigms
 ### Programming Paradigms
