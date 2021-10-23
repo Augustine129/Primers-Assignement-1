@@ -71,7 +71,40 @@ void showEmployees (std::vector<std::string> employees) {
    }
 }
 
-
 void employeeListRemoval(void) {
+  
+  std::vector<std::string> totalEmployee = { 
+    "John Smith",
+    "Jaelynn Stuart",
+    "Kaley Barajas",
+    "Walter Collier",
+    "Cale Myers",
+    "John Smith" 
+    };
 
-} 
+  std::string remove;
+  
+  std::cout<< "There are: "<< totalEmployee.size() <<" employees\n";
+  for (int i = 0; i < totalEmployee.size(); i++){
+    std::cout << totalEmployee[i] << "\n";
+  }
+  
+  std::cout<<"Enter an employee name to remove: ";
+  
+  std:getline(std::cin,remove);
+  auto value = std::find(totalEmployee.begin(), totalEmployee.end(), remove);
+  if(value != totalEmployee.end()){
+    
+   totalEmployee.erase(value);
+    
+    std::cout<< "There are: "<< totalEmployee.size() <<" employees\n";
+    for (int i = 0; i < totalEmployee.size();){
+      std::cout << totalEmployee[i] << "\n";
+    }
+  }
+ 
+  else{
+    std::cout<<"Employee not found please try again";
+  }
+}
+
