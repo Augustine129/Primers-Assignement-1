@@ -1,24 +1,28 @@
 int passwordChecker(std::string password) {
+  //number of digits in the string
   int digits = 0;
+  //number of letters in string
   int letters = 0;
+  //number of special characters in a string
   int specialCharacters = 0;
   int value = 0;
 
+//This loop goes through each character in the string for comparison
   for(int i = 0; i < password.length(); i++) {
 
     if(std::isdigit(password[i])) {
 
-      digits ++;
+      digits ++; //increment the number of digit in the string 
       std::cout << "numbers" << digits;
 
     } else if (std::isalpha(password[i])) {
 
-      letters++;
+      letters++;//increment the number of letters in the string
       std::cout << "letters" << letters;
 
     } else {
 
-      specialCharacters++;
+      specialCharacters++; //increment the number of special characters in the string
        std::cout << "special" << specialCharacters;
     }
   }
@@ -45,7 +49,7 @@ int passwordChecker(std::string password) {
 void passwordComplexityChecker(void) {
   std::string passwords;
   int passwordStrength = -1;
-	std::cout << "PLease enter a password: ";
+	std::cout << "PLease enter a password: "; // ask the user to enter their password
   std::getline(std::cin, passwords);
   passwordStrength = passwordChecker(passwords);
   std::cout <<"\npassword strength: " << passwordStrength;
