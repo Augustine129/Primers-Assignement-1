@@ -98,7 +98,7 @@ void employeeListRemoval(void) {
    totalEmployee.erase(value);
     
     std::cout<< "There are: "<< totalEmployee.size() <<" employees\n";
-    for (int i = 0; i < totalEmployee.size();){
+    for (int i = 0; i < totalEmployee.size(); i++){
       std::cout << totalEmployee[i] << "\n";
     }
   }
