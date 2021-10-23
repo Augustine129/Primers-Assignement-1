@@ -72,8 +72,8 @@ void showEmployees (std::vector<std::string> employees) {
 }
 
 void employeeListRemoval(void) {
-  
-  std::vector<std::string> totalEmployee = { 
+  //initilize arrays
+  std::vector<std::string> totalEmployee = { //
     "John Smith",
     "Jaelynn Stuart",
     "Kaley Barajas",
@@ -82,20 +82,23 @@ void employeeListRemoval(void) {
     "John Smith" 
     };
 
-  std::string remove;
+  std::string remove; //declare the string that will need to be romoved
   
   std::cout<< "There are: "<< totalEmployee.size() <<" employees\n";
   for (int i = 0; i < totalEmployee.size(); i++){
     std::cout << totalEmployee[i] << "\n";
   }
   
+  //ask the user which employee they would like to remove from thr arrays
   std::cout<<"Enter an employee name to remove: ";
   
+  //Collect the the line which was entered by the user and saves it to remove
   std:getline(std::cin,remove);
+
   auto value = std::find(totalEmployee.begin(), totalEmployee.end(), remove);
-  if(value != totalEmployee.end()){
+  if(value != totalEmployee.end()){ // when the value is selected the it will remove from the array
     
-   totalEmployee.erase(value);
+   totalEmployee.erase(value); //It would loop through the array and display each element on a seperate line 
     
     std::cout<< "There are: "<< totalEmployee.size() <<" employees\n";
     for (int i = 0; i < totalEmployee.size(); i++){
