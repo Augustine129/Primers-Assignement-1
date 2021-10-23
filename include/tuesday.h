@@ -63,6 +63,15 @@ void passwordComplexityChecker(void) {
 
 }
 
-void employeeListRemoval(void) {
-	std::cout << " - employeeListRemoval: not yet implemented\n\n";
+void showEmployees (std::vector<std::string> employees) {
+  int employeeSize = employees.size();
+  std::cout << "\nThere are " << employeeSize << " employees:\n";
+   for (std::string i : employees) {
+    std::cout << i << std::endl;
+   }
 }
+
+
+void employeeListRemoval(void) {
+
+} 

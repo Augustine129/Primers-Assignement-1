@@ -14,12 +14,53 @@ To help complete this challenge I needed to break the overall problem down into 
 The biggest issue was related to testing the areas my solution failed, originally, I tested to see if it worked - however, it wasn’t until I tried to break it that I found some of the more serious issues with my design and implementation.  For example, ...
 
 ### Primer 2 - Self-service Checkout
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac elit in magna porttitor convallis. Ut eu justo rutrum, luctus lorem a, pretium quam. Sed ut commodo lectus. Vestibulum ut ligula lorem. Nulla mattis varius ex ac luctus. Aenean nec laoreet enim. Sed lorem erat, vestibulum ut faucibus vel, pellentesque nec felis. Vivamus metus tellus, pretium eu sodales interdum, fringilla ut mauris. ....
+This primer required me to create this program which allows me to create a self-service checkout program in which ask the user to enter the number of items and their cost.The program should then calculate the sub total and apply a fixed shopping tax on it and then add those two values together to display the total amount.
 
-..  
-..  
+To help complete this challenge I needed to break the overall problem into the following main task which were:
 
----
+1. Collect the data from the user,
+2. Used while loop which would not allow the program to continue unless the imputs are valid,
+3. Calculate the quantity * cost for each items,
+4. Finally add up all the values together and calculate the tax for a total.
+
+#### Reflection (as well as issues, challenges & resolutions)
+
+The only one thing that I needed to solve was how to loop the propmpts and keep asking the user to their inputs unless the number 0 was entered.
+That was solved by using a while loop.
+
+subTotal = subTotal + (quantity * cost);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Section 2 - Programming Paradigms
 ### Programming Paradigms
 Simply put, a programming paradigm, for example, procedural, object-oriented, functional, structured, declarative, imperative and event driven can be described as a specific approach used when trying to solve a problem.  Although many programming languages can (and do) support multiple paradigms this discussion will focus more specifically on the possible benefits with examples of the potential differences and similarities of five from the above list. These are ...
