@@ -45,6 +45,85 @@ To help complete this challenge I needed to break the overall problem down into 
 
 Where this task proved challenging was meeting the criteria of stop asking for a password until it's complexity is 'weak'. To fix  this problem I decided to create a helper function to abstract the mechanism behind checking the complexity by using a switch statement rather than an if statement.
 
+### Primer 4 - Employee list removal
+This primer required me to create a program that display a list of employee names. The users will be asked to enter an employee's name.
+
+To help complete this challenge I needed to break the overall problem down into the following main tasks:
+
+1. Get data from the user
+2. Create variables to place names
+3. Search for a name using the input and remove it if match
+4. Output the names 
+
+#### Reflection (as well as issues, challenges & resolutions)
+
+Where this task proved challenging was in the user input. This is because if the user have misspelled or wrote their name in a lower case "Please enter a name" which implies the user has to enter their name with a capital letter. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Section 2 - Programming Paradigms
 ### Programming Paradigms
 Simply put, a programming paradigm, for example, procedural, object-oriented, functional, structured, declarative, imperative and event driven can be described as a specific approach used when trying to solve a problem.  Although many programming languages can (and do) support multiple paradigms this discussion will focus more specifically on the possible benefits with examples of the potential differences and similarities of five from the above list. These are ...
