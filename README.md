@@ -60,7 +60,3 @@ To help complete this challenge I needed to break the overall problem down into 
 #### Reflection (as well as issues, challenges & resolutions)
 Where this task proved challenging was the spacing between the columns.
 In order to figure out the spacing I needed to use the getline function from primer 4 and 5 and implemented into the while loop which is the way to display information from the file and the closing file.
-## Section 2 - Programming Paradigms
-### Programming Paradigms
-Simply put, a programming paradigm, for example, procedural, object-oriented, functional, structured, declarative, imperative and event driven can be described as a specific approach used when trying to solve a problem.  Although many programming languages can (and do) support multiple paradigms this discussion will focus more specifically on the possible benefits with examples of the potential differences and similarities of five from the above list. These are ...
----
