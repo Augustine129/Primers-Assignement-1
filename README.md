@@ -75,6 +75,22 @@ Where this task proved challenging was reading the file correctly in C++.
 The problem was the whitespace in the CSV file which affects the result to diplay on the console.
 
 
+### Primer 6 - Data file parser
+This primer required me to create a program to display a list of employee information in a table format.
+
+To help complete this challenge I needed to break the overall problem down into the following main task 
+
+1. Get data from the user
+2. Read the data from the file store in a memory
+3. Only display the first name an initial
+4. Close the CSV file
+
+#### Reflection (as well as issues, challenges & resolutions)
+
+Where this task proved challenging was the spacing bwtween the columns.
+In order to figure out the spacing I needed to use the getline function from primer 4 and 5 and implemented into the while loop which is the way to display information from the file and the closing file.
+
+
 
 
 
