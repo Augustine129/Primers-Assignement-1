@@ -59,49 +59,20 @@ To help complete this challenge I needed to break the overall problem down into 
 
 Where this task proved challenging was in the user input. This is because if the user have misspelled or wrote their name in a lower case "Please enter a name" which implies the user has to enter their name with a capital letter. 
 
+### Primer 5 - Phone directory
+This primer required me to create a program that uses an file to store and search for phone contacts by prompting a name or number from the user.
 
+To help complete this challenge I needed to break the overall problem down into the following main task 
 
+1. Get data from the user
+2. Read the data from the file store
+3. Compare the user input with the data to see if it matched
+4. Output the match if there is one
 
+#### Reflection (as well as issues, challenges & resolutions)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Where this task proved challenging was reading the file correctly in C++.
+The problem was the whitespace in the CSV file which affects the result to diplay on the console.
 
 
 
