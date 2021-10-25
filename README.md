@@ -81,3 +81,47 @@ To help complete this challenge I needed to break the overall problem down into 
 #### Reflection (as well as issues, challenges & resolutions)
 I was able to show a working implementation of threads being joined and detached. I was able to see that the thread was blocked until the first timer and the second timer had completed.
 
+## Section 2 - Programming Paradigms
+ 
+Programming Paradigms such as procedural, object-oriented, functional, structured, declarative, imperative and event driven are a logical approach used during software development that is used to show how the programming language has been implemented. Many programming languages use multiple programming paradigms and some programming languages are designed so that they only follow one programming paradigm.
+# IMPERATIVE & DECLARATIVE PARADIGM:
+Imperative Paradigm is a paradigm of computer programming where the program describes steps that change the state of the computer an example of an imperative programming languages are C++, C#, Java, Python , PHP and more . Unlike declarative programming, which describes "what" a program should accomplish, imperative programming explicitly tells the computer "how" to accomplish it
+# OBJECT-ORIENTED PARADIGM:
+Object-Oriented Paradigm, a program that illustrates the structure and behaviour of objects and classes of objects.
+Object-Oriented Paradigm has a storage fixing state and a set of methods describing behavior of the object.
+Classes compose an inheritance hierarchy including polymorphism of operation.
+Polymorphism allows programme code to have multiple meanings or functions, however  encapsulation is the process of keeping classes private so that external code cannot modify them.
+Inheritance refers to methods and functions gaining access to the attributes of another class. Execution of an object- oriented program is regarded as exchange of messages between objects,modifying states.
+In object-oriented paradigm, objects of the same type (files, for example) need a set of methods that show how an object of this type reacts to stimuli from outside the object’s “territories”. To create these methods, a unit called a class is used
+The advantages of the object-oriented programming paradigm are;
+1- Improved software development productivity: OO programming is modular, as it provides separation of duties in object-based program development. It is also extensible, as objects can be extended to include new attributes and behaviors. Objects can also be reused within and across applications. Because of these three factors; extensibility, modularity, and reusability.
+2- Faster development: Reuse enables faster development. Object-oriented programming languages come with rich libraries of objects, and code developed during projects is also reusable in future projects.
+Disadvantage of a object-oriented paradigm are;
+1- Steep learning curve: The thought process involved in OO programming may not be natural for some people, and it will take time to get used to it.
+2- The complexity of creating programs: it is very complex to create programs based on the interaction of objects. Some of the key programming techniques, such as inheritance and polymorphism, can be a big challenge to comprehend initially.
+## PROCEDURAL PROGRAMMING
+Procedural Programming is the use of code in a stepwise procedure to develop applications. Procedures will be created to allow a series of steps to be followed.
+Data can be passed from procedure to procedure using parameters
+## FUNCTIONAL PARADIGM
+It is a programming paradigm where programs are constructed by applying and composing functions. This paradigm implements mathematical functions. These functions are pure functions, which means they do not cause any observable side effects such as modifying a global.
+
+## Section 3 - Continued Professional Development
+### Benefits of becoming a Polyglot Programmer
+ 
+## What Is Polyglot Programming?
+ 
+Polyglot programming is the practice of writing code in multiple languages to capture additional functionality and efficiency not available in a single language.
+For example, on my team at Accurx we employ a Front-end engineer and a Back-end engineer to create a fully functional application for our users. Moreover we employ a Full-stack engineer who is proficient in multiple languages and a team with varying languages skills work together to perform polyglot programming.
+ 
+## Advantages of becoming a Polyglot Programmer
+ 
+1. Being proficient in multiple languages not only looks good on your resume but also indicates to companies that you are flexible and adaptable.
+2. Another benefit is that you have the ability to contribute to every part of the tech stack; from frontend to backend, knowing  all the languages that specialise in each part of the stack.
+3. Becoming a polyglot programmer ensures that a person can understand terminology more easily during their studies or work. For example if a programmer understand the concept of C# and Javascript , and they started learning Typescript.
+The polyglot programmer would easily understand the different concepts which are similar to the two previous languages the programmer is familiar with.
+4. The fourth benefit of being a Polyglot Programmer is that you become more creative when approaching a problem, you can vision various solutions and decide which one is the best. In comparison to the person who knows a  single language, you start to become more rigid and stick with your problem solving techniques.
+ 
+ 
+ 
+ 
+
