@@ -60,3 +60,10 @@ To help complete this challenge I needed to break the overall problem down into 
 #### Reflection (as well as issues, challenges & resolutions)
 Where this task proved challenging was the spacing between the columns.
 In order to figure out the spacing I needed to use the getline function from primer 4 and 5 and implemented into the while loop which is the way to display information from the file and the closing file.
+
+### Primer 7 - Sleep timer
+This primer required me to write a blocking function that would have a default value of 10 seconds.
+
+#### Reflection (as well as issues, challenges & resolutions)
+This challenge was easy to complete, I just had to know how to find the current thread of the sleep program.
+
