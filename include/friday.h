@@ -112,9 +112,35 @@ void carClass(void) {
     }
 
   } while (option != 0);
-    
 }
 
+class AreaOfShape {
+  public:
+  AreaOfShape(){
+    std::cout << "\nCreated.";
+  }
+  ~AreaOfShape(){
+    std::cout << "\nDestroyed";
+  }
+
+  float size(float w, float l) {//This method calculate the are of a rectangle
+    return w * l;
+  }
+
+  float size(float b,float h,float a) {
+    float result = 0.5 * (a * b);
+    return result;
+  }
+
+  float size(float a) {// This method calculate the are of a square
+    return a * a;
+  }  
+};
+
 void areaOf(void) {
+  AreaOfShape area;
   
+	std::cout << "\nArea of Square (a = 6.1) : " << area.size(10.67);  
+  std::cout << "\nArea of Rectangle (w = 14, l = 3.5) : " << area.size(14,3.5);
+  cout<<"\nArea of triangle (b = 12, h = 2): "<<area.size(12,2)<<endl;
 }
