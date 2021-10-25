@@ -8,7 +8,6 @@ To help complete this challenge I needed to break the overall problem down into 
 * Create a method to convert F->C
 * Create a method to convert C->F
 #### Reflection (as well as issues, challenges & resolutions)
- 
 The biggest issue was related to testing the areas my solution failed, originally, I tested to see if it worked - however, it wasn’t until I tried to break it that I found some of the more serious issues with my design and implementation.  For example, the program did not run when a string was entered as input instead of float, to resolve this issue I used the try/catch which prevents the program from crashing.
 ### Primer 2 - Self-service Checkout
 This primer required me to create this program which allows me to create a self-service checkout program in which ask the user to enter the number of items and their cost.The program should then calculate the subtotal and apply a fixed shopping tax on it and then add those two values together to display the total amount.
@@ -60,56 +59,55 @@ To help complete this challenge I needed to break the overall problem down into 
 #### Reflection (as well as issues, challenges & resolutions)
 Where this task proved challenging was the spacing between the columns.
 In order to figure out the spacing I needed to use the getline function from primer 4 and 5 and implemented into the while loop which is the way to display information from the file and the closing file.
-
+ 
 ### Primer 7 - Sleep timer
 This primer required me to write a blocking function that would have a default value of 10 seconds.
-
+ 
 #### Reflection (as well as issues, challenges & resolutions)
 This challenge was easy to complete, I just had to know how to find the current thread of the sleep program.
-
+ 
 ### Primer 8 - Joining & Detaching threads
-This primer required me to create a program that initilises two threads, each with a unique timer function.
-The two threads needed to be initilised at different times.
+This primer required me to create a program that initializes two threads, each with a unique timer function.
+The two threads needed to be initialized at different times.
 Thread 1 with a timer of 5 seconds and thread 2 with a timer of 10 seconds.
-
+ 
 To help complete this challenge I needed to break the overall problem down into the following main task
-
+ 
 1. Create timers of 5 and 10 second duration on 2 seperate threads
 2. Joining these 2 Threads
 3. Detach Threads
-
+ 
 #### Reflection (as well as issues, challenges & resolutions)
 I was able to show a working implementation of threads being joined and detached. I was able to see that the thread was blocked until the first timer and the second timer had completed.
-
+ 
 ### Primer 9 - Joining & Detaching threads
-This primer required me to create a program that involved creating a car class that has with methods that allow the user to unlock and lock the car, turn the engine on and off. 
-
+This primer required me to create a program that involved creating a car class that has methods that allow the user to unlock and lock the car, turn the engine on and off.
+ 
 To help complete this challenge I needed to break the overall problem down into the following main task
-
+ 
 1. Get input form the user
 2. Turning engine on
 3. Turning engine off
 4. Lock the car.
 5. Unlock the car if the engine is off and when the user decide to turn it off
-
+ 
 #### Reflection (as well as issues, challenges & resolutions)
-When I was running my code at first it was diaplying the wrong information in the console.
-However after implemting conditions to the function of the car lock.
-
+When I was running my code at first it was displaying the wrong information in the console.
+However after implementing conditions to the function of the car lock.
+ 
 ### Primer 10 - Joining & Detaching threads
-This primer required me to create a program that found the area of a rectangle, triangle and square using the "AreaOfShap"
-
+This primer required me to create a program that found the area of a rectangle, triangle and square using the "AreaOfShape"
+ 
 To help complete this challenge I needed to break the overall problem down into the following main task
-
+ 
 1. Work out the conditions needed to overload for each function.
 2. Create .size() functions for each shape.
 3. Finally show the result to the user.
-
-#### Reflection (as well as issues, challenges & resolutions)
- The reason why I decided to choose square, triiangle and rectangle because I could distinguish them by the amount of argument they each hold
-
-## Section 2 - Programming Paradigms
  
+#### Reflection (as well as issues, challenges & resolutions)
+The reason why I decided to choose square, triangle and rectangle because I could distinguish them by the amount of argument they each hold
+ 
+## Section 2 - Programming Paradigms
 Programming Paradigms such as procedural, object-oriented, functional, structured, declarative, imperative and event driven are a logical approach used during software development that is used to show how the programming language has been implemented. Many programming languages use multiple programming paradigms and some programming languages are designed so that they only follow one programming paradigm.
 # IMPERATIVE & DECLARATIVE PARADIGM:
 Imperative Paradigm is a paradigm of computer programming where the program describes steps that change the state of the computer an example of an imperative programming languages are C++, C#, Java, Python , PHP and more . Unlike declarative programming, which describes "what" a program should accomplish, imperative programming explicitly tells the computer "how" to accomplish it
@@ -131,17 +129,13 @@ Procedural Programming is the use of code in a stepwise procedure to develop app
 Data can be passed from procedure to procedure using parameters
 ## FUNCTIONAL PARADIGM
 It is a programming paradigm where programs are constructed by applying and composing functions. This paradigm implements mathematical functions. These functions are pure functions, which means they do not cause any observable side effects such as modifying a global.
-
+ 
 ## Section 3 - Continued Professional Development
 ### Benefits of becoming a Polyglot Programmer
- 
 ## What Is Polyglot Programming?
- 
 Polyglot programming is the practice of writing code in multiple languages to capture additional functionality and efficiency not available in a single language.
 For example, on my team at Accurx we employ a Front-end engineer and a Back-end engineer to create a fully functional application for our users. Moreover we employ a Full-stack engineer who is proficient in multiple languages and a team with varying languages skills work together to perform polyglot programming.
- 
 ## Advantages of becoming a Polyglot Programmer
- 
 1. Being proficient in multiple languages not only looks good on your resume but also indicates to companies that you are flexible and adaptable.
 2. Another benefit is that you have the ability to contribute to every part of the tech stack; from frontend to backend, knowing  all the languages that specialise in each part of the stack.
 3. Becoming a polyglot programmer ensures that a person can understand terminology more easily during their studies or work. For example if a programmer understand the concept of C# and Javascript , and they started learning Typescript.
@@ -149,6 +143,3 @@ The polyglot programmer would easily understand the different concepts which are
 4. The fourth benefit of being a Polyglot Programmer is that you become more creative when approaching a problem, you can vision various solutions and decide which one is the best. In comparison to the person who knows a  single language, you start to become more rigid and stick with your problem solving techniques.
  
  
- 
- 
-
