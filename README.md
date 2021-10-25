@@ -81,6 +81,33 @@ To help complete this challenge I needed to break the overall problem down into 
 #### Reflection (as well as issues, challenges & resolutions)
 I was able to show a working implementation of threads being joined and detached. I was able to see that the thread was blocked until the first timer and the second timer had completed.
 
+### Primer 9 - Joining & Detaching threads
+This primer required me to create a program that involved creating a car class that has with methods that allow the user to unlock and lock the car, turn the engine on and off. 
+
+To help complete this challenge I needed to break the overall problem down into the following main task
+
+1. Get input form the user
+2. Turning engine on
+3. Turning engine off
+4. Lock the car.
+5. Unlock the car if the engine is off and when the user decide to turn it off
+
+#### Reflection (as well as issues, challenges & resolutions)
+When I was running my code at first it was diaplying the wrong information in the console.
+However after implemting conditions to the function of the car lock.
+
+### Primer 10 - Joining & Detaching threads
+This primer required me to create a program that found the area of a rectangle, triangle and square using the "AreaOfShap"
+
+To help complete this challenge I needed to break the overall problem down into the following main task
+
+1. Work out the conditions needed to overload for each function.
+2. Create .size() functions for each shape.
+3. Finally show the result to the user.
+
+#### Reflection (as well as issues, challenges & resolutions)
+ The reason why I decided to choose square, triiangle and rectangle because I could distinguish them by the amount of argument they each hold
+
 ## Section 2 - Programming Paradigms
  
 Programming Paradigms such as procedural, object-oriented, functional, structured, declarative, imperative and event driven are a logical approach used during software development that is used to show how the programming language has been implemented. Many programming languages use multiple programming paradigms and some programming languages are designed so that they only follow one programming paradigm.
