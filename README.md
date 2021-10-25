@@ -67,3 +67,17 @@ This primer required me to write a blocking function that would have a default v
 #### Reflection (as well as issues, challenges & resolutions)
 This challenge was easy to complete, I just had to know how to find the current thread of the sleep program.
 
+### Primer 8 - Joining & Detaching threads
+This primer required me to create a program that initilises two threads, each with a unique timer function.
+The two threads needed to be initilised at different times.
+Thread 1 with a timer of 5 seconds and thread 2 with a timer of 10 seconds.
+
+To help complete this challenge I needed to break the overall problem down into the following main task
+
+1. Create timers of 5 and 10 second duration on 2 seperate threads
+2. Joining these 2 Threads
+3. Detach Threads
+
+#### Reflection (as well as issues, challenges & resolutions)
+I was able to show a working implementation of threads being joined and detached. I was able to see that the thread was blocked until the first timer and the second timer had completed.
+
